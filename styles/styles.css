@@ -13,7 +13,7 @@ body {
     box-sizing: border-box;
 }
 
-.introduction {
+.container {
     border-radius: 16px;
     background-color: #ffffff;
     padding: 30px 20px;
@@ -36,21 +36,21 @@ body {
     }
 }
 
-.introduction h1 {
+h1 {
     opacity: 1;
     margin-bottom: 10px;
     font-size: 50px;
     font-family: "Sour Gummy", sans-serif;
 }
 
-.introduction p {
+p {
     opacity: 1;
     margin-top: 0;
     font-size: 18px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.introduction input {
+.input {
     margin-top: 10px;
     padding: 10px 15px 10px 15px;
     border-radius: 25px;
@@ -61,7 +61,7 @@ body {
     font-family: "Sour Gummy", sans-serif;
 }
 
-.introduction button {
+.button {
     margin-top: 15px;
     padding: 10px 18px;
     border-radius: 20px;
@@ -73,6 +73,6 @@ body {
     transition: 0.2s;
 }
 
-.introduction button:hover {
+.button:hover {
     background-color: #ff6f6f;
 }
