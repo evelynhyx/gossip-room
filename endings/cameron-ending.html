@@ -14,6 +14,24 @@
         <div class="container">
             <h1>Cameron Did Not Spread the Rumor</h1>
             <p>"Wow, who would have guessed? You'd think your ex would be the one to spread a rumor about you, but you thought wrong!"</p>
+            <p id="cameron"></p>
+            <p>"It's funny how you came up to me as if I still talk to you anymore. It wasn't me but I know who it was. If you want to know, then I guess you have to do my homework and laundry for the next week. Then maybe I'll consider telling you."</p>
+            <p>He's got to be kidding right now. You were getting furious so you told him,<br>
+                "I'm telling your mother everything you did." His smile faded instantly.</p>
+                <p>"No no please not her! It was James I'm telling you!I plotted this with him a while ago because you dumped me over a stupid prank. He never loved you! I'm sorry I was so obsessed with you! Just please, don't tell my mom. I don't want her taking my PS5 away again!"<br></p>
+                <p>Seeing your ex beg was irritating, but you sighed and said, "Shut up. I'm not telling your mom anything."</p>
+            <h2 style="text-align: center; font-family: 'Sour Gummy', sans-serif">The End</h2>
         </div>
+
+        <script>
+            document.addEventListener("DOMContentLoaded", () => {
+                const name = localStorage.getItem("name");
+
+                if (name) {
+                    document.getElementById("cameron").textContent =
+                        `"Get a life, ${name}. I haven't spoken to you in like 6 months, although it's hilarious to know you sleep with teddy bears."`;
+                }
+            });
+        </script>
     </body>
 </html>
